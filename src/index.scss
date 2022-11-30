@@ -1,1 +1,9 @@
 @import '../node_modules/css-reset-and-normalize/scss/reset-and-normalize.scss';
+@import "./styles/styles.scss";
+html, body{
+    font-family: 'SF Pro Display', sans-serif;
+    background: #000;
+    color: #fff;
+    width: 100%;
+}
+

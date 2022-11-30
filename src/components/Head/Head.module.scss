@@ -1,0 +1,23 @@
+@import "../../styles/styles.scss";
+
+.head {
+    width: 100%;
+    height: 100vh;
+    &__text {
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &__img {
+        width: 100%;
+        height: 100rem;
+        background: url(../../assets/head.png) no-repeat;
+        background-size: 40%;
+    }
+}
+
+.text {
+    &__title {
+        font-weight: 700;
+        font-size: 10rem;
+    }
+}
