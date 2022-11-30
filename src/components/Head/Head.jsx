@@ -5,7 +5,7 @@ function Head() {
   const [deg, setDeg] = useState(0);
   useEffect(() => {
     let int = setInterval(() => {
-      setDeg(deg=>deg+1);
+      setDeg(deg=>deg+5);
     }, 100);
     return () => clearInterval(int);
   }, []);
@@ -16,13 +16,11 @@ function Head() {
           <h1 className={s.text__title} key={deg} style={{'background': `linear-gradient(${deg}deg, #05D6D9, #F907FC)`,"WebkitBackgroundClip": "text",
         "WebkitTextFillColor": "transparent"}}>NFT Gallery</h1>
           <div className={s.text__subtitle}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
-            optio corporis eaque similique dolor, dolores nisi reiciendis
-            dolorum harum aspernatur vitae. Harum, veniam ut facere repudiandae
-            error eveniet iure odit.
+          This website is for those who want to be part of the development of <span className={s.subtitle__highlighter}>Web 3.0</span>. For those who are ready to accept the new world and understand the latest technologies
           </div>
         </div>
         <div className={s.head__img}></div>
+        
       </div>
     </div>
   );
