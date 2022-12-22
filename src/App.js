@@ -1,10 +1,11 @@
 import "./App.scss";
-import Head from "./components/Head/Head";
+
+import React from "react";
 function App() {
   return (
     <div className="App">
+        <div className="img"></div>
       <div className="wrapper">
-        <Head />
       </div>
     </div>
   );
